@@ -15,7 +15,7 @@ import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import java.util.Date;
 
-@Stateless(name = "AuthenticationService")
+@Stateless(name = "AuthenticationHandler")
 public class AuthenticationHandlerImpl implements AuthenticationHandler {
 
     private static Logger logger = Logger.getLogger(AuthenticationHandlerImpl.class);
