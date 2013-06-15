@@ -13,12 +13,10 @@ To use the project, follow the next steps:
 3) Run in command line, where the sources have been downloaded:
 	mvn clean install 
 
-4) To add dependency to pom.xml, in dependencies copy: 
-			<dependency>
+4) To add dependency to pom.xml, use the following information: 
     				<groupId>autenticationhandler</groupId>
     				<artifactId>autenticationhandler</artifactId>
     				<version>1.0-SNAPSHOT</version>	
-			</dependency>
 		
 5) To use the jar in another context the correspondent file will be generated under ./target folder
 		
